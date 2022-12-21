@@ -3,6 +3,6 @@
  # Description
  This project is about creating a **single web page**using
  - HTML
- - CSS
- only. 
+ - CSS  only. 
+ 
  Extra features will be added to it later.
