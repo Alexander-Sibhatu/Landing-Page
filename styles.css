@@ -86,8 +86,9 @@ button {
 .information .general {
     display: flex;
     justify-content: center;
-    font-size: 27px;
+    font-size: 36px;
     font-weight: 900;
+    color: #1F2937;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -96,7 +97,7 @@ button {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 18px;
+    gap: 42px;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -113,10 +114,8 @@ button {
     margin-bottom: 15px;
 }
 
-.text {
-    gap: 8px;
+.information .specific .item .text {
     margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .item {
@@ -159,6 +158,6 @@ button {
 
 
 .information .specific .item img {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
 }
