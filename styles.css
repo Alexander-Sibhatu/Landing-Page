@@ -9,12 +9,12 @@ body {
     height: 100vh;
     width: 100vw;
     margin: 0;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
 }
 
 .introduction {
     background-color: #1F2937;
     color: white;
-    font-family: sans-serif, 'Times New Roman', Times, serif;
     padding-left: 100px;
     
 }
@@ -128,23 +128,31 @@ button {
 }
 
 .quote {
-    font-size: 36px;
-    font-weight: lighter;
+    font-weight: 300;
     color: #1F2937;
     background-color: #E5E7EB;
     box-sizing: border-box;
     
 }
 
-.quote .second-message{
+.quote .second-message {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     height: 500px;
     margin: auto 300px;
+    color: #1F2937;
+    font-weight: 100;
+    font-size: 36px;
 }
 
+
+
 .quote .by {
-    
+    display: flex;
+    justify-content: end;
+    text-align:start;
+    font-size: 36px;
+    text-align: center;
 }
